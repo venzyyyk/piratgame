@@ -1,0 +1,272 @@
+/* ===== RESET & BASE ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #1a1a2e;
+  color: #c8c8c8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+a {
+  color: #5dade2;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+img { max-width: 100%; height: auto; }
+
+/* ===== HEADER ===== */
+.header {
+  text-align: center;
+  padding: 12px 8px 0;
+}
+
+.header h1 {
+  color: #e0c068;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.logo {
+  width: 200px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* ===== BANNER ===== */
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #16213e;
+  border: 1px solid #2a2a4a;
+  border-radius: 6px;
+  margin: 8px;
+}
+
+.banner img {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.banner span {
+  color: #e8d44d;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* ===== CTA BUTTON ===== */
+.cta {
+  text-align: center;
+  margin: 14px 0;
+}
+
+.cta img {
+  width: 220px;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+.cta img:hover { transform: scale(1.05); }
+
+/* ===== DESCRIPTION ===== */
+.desc {
+  text-align: center;
+  padding: 6px 16px;
+  color: #aaa;
+  font-size: 13px;
+}
+
+/* ===== NAV LINKS ===== */
+.nav-links {
+  padding: 8px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px;
+  background: #16213e;
+  border: 1px solid #2a2a4a;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  color: #5dade2;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.nav-link:hover {
+  background: #1a2744;
+  text-decoration: none;
+}
+
+.nav-link img {
+  width: 16px;
+  height: 16px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-top: 1px solid #2a2a4a;
+  margin-top: 12px;
+  font-size: 12px;
+  color: #666;
+}
+
+.footer .online {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer .online img {
+  width: 16px;
+  height: 16px;
+}
+
+.footer .online b {
+  color: #e8d44d;
+  font-size: 14px;
+}
+
+.footer .time {
+  color: #888;
+}
+
+.footer .copy {
+  color: #555;
+  font-size: 11px;
+}
+
+.gen-time {
+  text-align: center;
+  color: #444;
+  font-size: 10px;
+  padding: 4px;
+}
+
+/* ===== FORMS ===== */
+.form-wrap {
+  padding: 12px 16px;
+}
+
+.form-wrap label {
+  display: block;
+  color: #aaa;
+  font-size: 13px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.form-wrap input[type="text"],
+.form-wrap input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  background: #0f1629;
+  border: 1px solid #2a2a4a;
+  border-radius: 6px;
+  color: #e0e0e0;
+  font-size: 14px;
+  margin-bottom: 12px;
+  outline: none;
+}
+.form-wrap input:focus {
+  border-color: #5dade2;
+}
+
+.form-wrap button,
+.form-wrap input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: #e8d44d;
+  color: #1a1a2e;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background 0.15s;
+}
+.form-wrap button:hover,
+.form-wrap input[type="submit"]:hover {
+  background: #f0dc5a;
+}
+
+/* ===== RADIO ===== */
+.radio-group {
+  margin-bottom: 12px;
+}
+
+.radio-group span {
+  color: #aaa;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.radio-group label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 14px;
+  font-weight: normal;
+  color: #c8c8c8;
+  cursor: pointer;
+}
+
+/* ===== INFO BOX ===== */
+.info-box {
+  background: #16213e;
+  border: 1px solid #2a2a4a;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin: 10px 0;
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  color: #999;
+  line-height: 1.5;
+}
+
+.info-box img {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.info-box b {
+  color: #c8c8c8;
+}
+
+/* ===== PROMO ===== */
+.promo {
+  text-align: center;
+  padding: 10px 16px;
+  color: #e8d44d;
+  font-size: 14px;
+}
+
+.promo .timer {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.promo img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}

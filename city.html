@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang = 'ru'><head><meta charset = 'UTF-8'><meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'><title>Город Толедо</title><link rel = 'icon' href = 'favicon.ico'><link rel = 'stylesheet' href = 'assets/styles/default_x10.css?v=17092026'><meta name = 'mobile-web-app-capable' content = 'yes'>
+<style>
+.pbar{background:#d1bebe;height:15px;display:block;position:relative;overflow:hidden}
+.pbar div{height:15px;position:relative}
+.pbar span{position:absolute;top:0;left:0;right:0;text-align:center;color:#fff;font-size:11px;line-height:15px}
+.exp-f{background:#e06d17}
+.hp-f{background:#bb1515}
+.npc-t td{vertical-align:top}
+.npc-t img{border:1px solid #2a1a0a}
+</style>
+</head><body>
+<script src="js/auth.js"></script>
+<script>if(!requireAuth())document.write('');</script>
+<div class = 'title'>Город Толедо</div>
+<div class = 'up'>
+<div class="pbar"><div class="exp-f" style="width:10.48%"><span>10.48%</span></div></div>
+<div class="pbar"><div class="hp-f" style="width:17%"><span id="hp">63</span></div></div>
+<img class='ico2' src='assets/icons/res/money.png' width='16' height='16'> 4.66K
+<img class='ico2' src='assets/icons/res/piastr.png' width='16' height='16'> 370
+<a href='chest.html'><img class='ico2' src='assets/icons/nav/box.jpg' width='16' height='16'></a> 1 / 20
+<a href='day_prize.html'><img class='ico2' src='assets/icons/nav/replay.png' width='26' height='26'></a>
+<div style="float:right"><span id="realclock">--:--:--</span> ua</div>
+</div>
+<div class = 'post'><img class='ico' src='assets/icons/info.png' width='16' height='16'> <span class='info_green'>В сундуке есть новые артефакты!</span><br><a href='#'><strong>Открыть сундук</strong></a></div>
+<div class = 'gorod'>
+<br><img class='city_logo' src='assets/img/city/1.jpg' width='200' height='100'><br><br>
+</div>
+<div class = 'under' style='text-align:center'>
+<br>
+<strong class='info_red'>Игра на этапе Бета Тестирования!<br>
+Много что еще не реализовано, либо добавлено визуально и не имеет функционала!<br>
+***<br>
+Нашли баг?<br>
+Пишите на</strong> <a href='#'><strong>форум</strong></a><br>
+<strong class='info_red'>***<br>
+<br>
+Что такое WIP? WIP (work in progress) - это значит что данная функция/раздел пока не доступны!<br>
+***</strong><br>
+<br>
+<span class='info_purple'>Не забывайте качать защиту, скорость только усиливает все, но без атаки и защиты, вы будете слабы!</span><br>
+<br>
+</div>
+<div class = 'under'>
+<table class='npc-t' cellpadding='4'><tr>
+<td><img src='assets/img/pirate_newgame.jpg' alt='Анжела' width='96' height='96'></td>
+<td><span id="username">pirat</span>, на Пинасе далеко не уплыть. Нужно в <a href='#'><strong>Верфи</strong></a> купить новый корабль - <strong class='info_red'>Корвет</strong>.<br>
+С золотом у тебя не густо...<br>
+Я слышала что в <a href='#'><strong>Таверне</strong></a> есть несколько заданий. Платят хорошо!</td>
+</tr></table>
+</div>
+<div class = 'razd'>Приключения</div>
+<a class = 'link' href = 'location.html'><img class = 'ico2' src = 'assets/icons/nav/more.jpg' width = '24' height = '24'> В море!</a>
+<div class = 'post'><img class = 'ico2' src = 'assets/icons/nav/pursuit.jpg' width = '24' height = '24'> Битва за Карибы (с 20 ур.)</div>
+<a class = 'link' href = 'monsters.html'><img class = 'ico2' src = 'assets/icons/nav/treasure.jpg' width = '24' height = '24'> Поиски сокровищ</a>
+<a class = 'link' href = 'monsters.html'><img class = 'ico2' src = 'assets/icons/nav/monsters_ico.jpg' width = '24' height = '24'> Монстры <span class='info_green'>(+)</span></a>
+<a class = 'link' href = 'travel.html'><img class = 'ico2' src = 'assets/icons/nav/travel.jpg' width = '24' height = '24'> Путешествие</a>
+<div class = 'razd'>Город</div>
+<a class = 'link' href = 'taverna.html'><img class = 'ico2' src = 'assets/icons/nav/taverna.jpg' width = '24' height = '24'> Таверна <span class='info_green'>(+)</span> <span class='info_green'>&#9668;</span></a>
+<a class = 'link' href = 'shop.html'><img class = 'ico2' src = 'assets/icons/nav/shop.jpg' width = '24' height = '24'> Верфь</a>
+<a class = 'link' href = 'market.html'><img class = 'ico2' src = 'assets/icons/nav/auk.jpg' width = '24' height = '24'> Черный рынок</a>
+<a class = 'link' href = 'masters.html'><img class = 'ico2' src = 'assets/icons/nav/masters.jpg' width = '24' height = '24'> Пиратские мастера</a>
+<a class = 'link' href = 'comuni.html'><img class = 'ico2' src = 'assets/icons/nav/comuni.jpg' width = '24' height = '24'> Общение <span style='color:#6e5f4a'>(<span id="chat-count">28</span>)</span></a>
+<a class = 'link' href = 'legends.html'><img class = 'ico2' src = 'assets/icons/nav/wargame.jpg' width = '24' height = '24'> Легенды и флоты</a>
+<div class = 'foot'>
+<a href = 'city.html'><img class = 'ico2' src = 'assets/icons/nav/city.png' width = '16' height = '16'> Город</a>
+<a href = '#'><img class = 'ico2' src = 'assets/icons/nav/pirat.png' width = '16' height = '16'> Пират</a>
+</div>
+<div class = 'foot_help'><a href='#'>Наставник</a> | <a href='#'>Поддержка</a> | <a href='#'>Правила</a></div>
+<div class = 'foot_help'><a href='#'>Общий чат</a> | <a href='#'>Форум</a> | <a href='#' onclick='doLogout();return false;' style='color:#c22f2f'>Выйти</a></div>
+<br>
+<center style = 'color:#6e5f4a'><span id="clock">--:--</span>  <img class = 'ico2' src = 'assets/icons/nav/pirat.png' width = '13' height = '13' alt = ''><strong id="online-count">0</strong></center>
+<center><small>game-seawar.com ©tg:dev_nwstdio, 2026</small><br><span id="gen-time"># 0.00000 s.</span></center>
+<script src="js/common.js"></script>
+<script>
+var un=document.getElementById('username');if(un)un.textContent=getUser();
+(function(){var el=document.getElementById('realclock');function t(){var n=new Date();el.textContent=String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0')+':'+String(n.getSeconds()).padStart(2,'0')}t();setInterval(t,1000)})();
+(function(){var el=document.getElementById('chat-count');var c=28;setInterval(function(){c=Math.max(15,Math.min(40,c+(Math.random()>0.5?1:-1)));el.textContent=c},8000)})();
+</script>
+</body></html>

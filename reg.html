@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang = 'ru'><head><meta charset = 'UTF-8'><meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'><title>Начало игры - Пираты</title><link rel = 'icon' href = 'favicon.ico'><link rel = 'stylesheet' href = 'assets/styles/default_x10.css?v=17092026'><meta name = 'mobile-web-app-capable' content = 'yes'></head><body><div class = 'title'>Начало игры - Пираты</div><div class = 'gorod'>
+<img src='assets/img/more.jpg' alt='' width='250px' height='130px'><br><br>
+<span class='info_gold'>Акция! Начни игру сегодня и получи 1000 <img class='ico2' src='assets/icons/res/money.png' width='16' height='16'> в подарок!</span><br>
+<span class='info_red'>До конца акции <span id="promo-timer">2 часа</span>!</span><br>
+<br>
+<form onsubmit="event.preventDefault(); handleReg();">
+        <strong>Ваше имя:</strong> <small>(3-40 букв)</small><br><input type = 'text' name = 'name' id='reg-name' maxlength='40'><br>
+        <strong>Пароль</strong> <small>(для входа в игру): от 8 символов</small><br><input type = 'password' name = 'password' id='reg-pass'><br><br>
+        <strong>Ваш Пол</strong><br><select name='gender'><option value='m' selected>мужской</option><option value='f'>женский</option></select><br><br>
+        <input type = 'submit' class = 'but' value = 'начать игру!'></form><br>
+<table cellpadding='4'><tr><td valign='top'><img src='assets/icons/info.png' width='16' height='16'></td><td><small><strong>Придумайте себе уникальный пароль для входа в игру, запомните или запишите его где-то.</strong><br>
+* Для пароля используйте <strong class='info_green'>англ. буквы</strong> в разных регистрах, <strong class='info_gold'>цифры</strong> и символы @#$!%^&amp;*()-=+_<br>
+* Чем сложней пароль, тем лучше!<br>
+* <strong class='info_red'>Для безопасности, не используйте на каждом сайте одинаковый пароль!</strong><br>
+* <strong class='info_blue'>Запишите или запомните свой пароль, иногда вам прийдется заходить заново в игру!</strong></small></td></tr></table>
+</div><a class = 'link' href = 'index.html'><img class = 'ico2' src = 'assets/icons/base/dir.png' alt = '[+]' width = '16' height = '16'> <strong>На главную</strong></a><br><center style = 'color:#6e5f4a'><span id="clock">--:--</span>  <img class = 'ico2' src = 'assets/icons/nav/pirat.png' width = '13' height = '13' alt = ''><strong id="online-count">0</strong></center><center><small>game-seawar.com ©tg:dev_nwstdio, 2026</small><br><span id="gen-time"># 0.00000 s.</span></center>
+<script src="js/common.js"></script>
+<script src="js/auth.js"></script>
+<script>
+(function(){var s=2*3600;var el=document.getElementById('promo-timer');setInterval(function(){if(s<=0)s=2*3600;s--;var h=Math.floor(s/3600),m=Math.floor((s%3600)/60),sec=s%60;el.textContent=h+':'+(m<10?'0':'')+m+':'+(sec<10?'0':'')+sec},1000)})();
+function handleReg(){var n=document.getElementById('reg-name').value.trim();var p=document.getElementById('reg-pass').value;if(n.length<3){alert('Имя должно быть от 3 букв!');return}if(p.length<8){alert('Пароль должен быть от 8 символов!');return}doRegister(n,p)}
+</script>
+</body></html>

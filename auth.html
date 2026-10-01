@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang = 'ru'><head><meta charset = 'UTF-8'><meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'><title>Вход в Игру</title><link rel = 'icon' href = 'favicon.ico'><link rel = 'stylesheet' href = 'assets/styles/default_x10.css?v=17092026'><meta name = 'mobile-web-app-capable' content = 'yes'></head><body><div class = 'title'>Вход в Игру</div><div class = 'gorod'><img src = 'assets/img/logo_lux.jpg' alt = 'Пираты Лого' width='220px' height='140px'><br><br><form onsubmit="event.preventDefault(); handleLogin();">
+        <strong>Ник персонажа:</strong><br><input type = 'text' name = 'login' id='login-nick'><br>
+        <strong>Пароль:</strong><br><input type = 'password' name = 'password' id='login-pass'><br><br>
+        <input type = 'submit' class = 'but' value = 'войти'></form><br></div><a class = 'link' href = 'auth.html?cmd=lastpass'><img class = 'ico2' src = 'assets/icons/base/dir.png' alt = '[+]' width = '16' height = '16'> <strong>Забыли пароль?</strong></a><a class = 'link' href = 'index.html'><img class = 'ico2' src = 'assets/icons/base/dir.png' alt = '[+]' width = '16' height = '16'> <strong>На главную</strong></a><br><center style = 'color:#6e5f4a'><span id="clock">--:--</span>  <img class = 'ico2' src = 'assets/icons/nav/pirat.png' width = '13' height = '13' alt = ''><strong id="online-count">0</strong></center><center><small>game-seawar.com ©tg:dev_nwstdio, 2026</small><br><span id="gen-time"># 0.00000 s.</span></center>
+<script src="js/common.js"></script>
+<script src="js/auth.js"></script>
+<script>
+function handleLogin(){var n=document.getElementById('login-nick').value.trim();var p=document.getElementById('login-pass').value;if(!n||!p){alert('Заполните все поля!');return}if(!doLogin(n,p)){alert('Неверный ник или пароль!\n\nТестовые аккаунты:\nhenger / test12345\nadmin / admin123\npirat / pirat123')}}
+</script>
+</body></html>
