@@ -30,8 +30,7 @@ $files = @(
     "assets/icons/nav/auk_piastr.jpg","assets/icons/nav/auk_res.jpg","assets/icons/nav/auk_art.jpg",
     "assets/icons/nav/auk_real.jpg","assets/icons/nav/auk_table.jpg","assets/icons/nav/art_shop.jpg",
     "assets/icons/nav/trade_chat.jpg","assets/icons/nav/kafe.png","assets/icons/nav/man.png",
-    "assets/styles/ui/green.png","assets/styles/ui/down.png","assets/styles/ui/links.png",
-    "assets/styles/ui/but_g.png","assets/styles/style/links.png",
+    "assets/styles/ui/up.png","assets/styles/ui/but.png",
     "favicon.ico"
 )
 

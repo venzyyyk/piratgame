@@ -1,296 +1,279 @@
 body {
-   color: #e3ba7c;
-   font-size: 16px;
-   font-family: tahoma, verdana, arial;
-   line-height: 18px;
-   max-width: 640px;
-   background: #060403;
-   margin: auto;
+    color: #b79b6f;
+    font-family: tahoma, verdana, arial;
+    line-height: 18px;
+    max-width: 480px;
+    background: #000;
+    margin: auto;
 }
 
 a {
-   text-decoration: none;
-   color: #e06d17;
+    text-decoration: none;
+    color: #e06d17;
 }
 
 textarea {
-   width: 90%;
-   height: 50px;
-   font-size: normal;
+    width: 90%;
+    height: 50px;
+    background-color: #fff !important;
+    color: black !important;
 }
 
 input {
-   background-color: #fff;
-   color: black;
+    background-color: #fff;
+    color: black;
 }
 
 select {
-   background-color: #fff;
-   color: black;
+    background-color: #fff;
+    color: black;
 }
 
 .title {
-   Font-size: 19px;
-   color: #fff;
-   background: url(ui/green.png) repeat-x left #170404;
-   text-align: center;
-   font-weight: bold;
-   padding: 6px;
+    font-size: 19px;
+    color: #fff;
+    background: url(ui/up.png) repeat-x left #170404;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
 }
 
 .up {
-   background: #111111;
-   color: #e3ba7c;
-   padding: 6px;
-   text-align: left;
-   border-bottom: 1px solid #14110a;
+    background: #0c0a06;
+    color: #b79b6f;
+    padding: 6px;
+    text-align: left;
+    border-bottom: 1px solid #14110a;
 }
 
-.page_nav, span.str {
-   background-color: #111111;
-   color: #e8d7b7;
-   text-align: left;
-   padding: 10px;
-   border: 1px solid #2e2714;
+.page_nav,
+span.str {
+    background-color: #0c0a06;
+    color: #e8d7b7;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #0e0c07;
 }
 
 .page {
-   background-color: #0c0a06;
-   color: #d19a44;
-   padding: 2;
-   border: 1px solid #1e120a;
-   text-align: left;
-}
-
-.page a {
-   color: #504840;
-}
-
-a.page {
-   background: #110f0c;
-   color: #e06d17;
-   display: block;
-   border: 1px solid #1e120a;
+    background-color: #0c0a06;
+    color: #b79b6f;
+    padding: 2px;
+    border: 1px solid #0e0a02;
+    text-align: left;
 }
 
 .razd {
-   background: url(ui/down.png) repeat-x #004c80;
-   color: #fff;
-   padding: 7px;
-   border-bottom: 2px solid #024e82;
-   font-weight: bold;
+    background: #7b1f02;
+    color: #fff;
+    padding: 7px;
+    border: 1px solid #5c1600;
+    border-left: 0;
+    border-right: 0;
+    font-weight: bold;
 }
 
 .gorod {
-   background: #171515;
-   border: 1px solid #141111;
-   padding: 2px;
-   text-align: center;
+    background: #0c0a06;
+    border: 1px solid #141111;
+    padding: 2px;
+    text-align: center;
 }
 
 .pirates_logo {
-   border: 1px solid #190506;
-   border-radius: 3px;
+    border: 1px solid #190506;
+    border-radius: 3px;
 }
 
 .city_logo {
-   border: 1px solid #2f3d46;
-   border-radius: 3px;
+    border: 1px solid #2f3d46;
+    border-radius: 3px;
 }
 
 .ico {
-   vertical-align: middle;
-   border: 0;
+    vertical-align: middle;
+    padding-right: 3px;
+    margin-top: -3px;
+    border: 0;
 }
 
 .ico2 {
-   vertical-align: middle;
-   padding-right: 1px;
-   margin-top: -3px;
-   border: 0;
+    vertical-align: middle;
+    padding-right: 1px;
+    margin-top: -3px;
+    border: 0;
+}
+
+.post a {
+    color: #e06d17;
+}
+
+.post {
+    background: #0c0a06;
+    color: #dabd92;
+    border: 1px solid #100c0c;
+    border-top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    padding: 6px;
+    word-break: break-word;
+}
+
+.under {
+    background-color: #0c0a06;
+    color: #b79b6f;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #1c180f;
+    word-break: break-word;
+}
+
+.under a {
+    color: #e06d17;
+}
+
+.link {
+    background: #0c0a06;
+    border: 1px solid #14110a;
+    border-top: 0;
+    color: #b79b6f;
+    text-align: left;
+    padding: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+a.link {
+    color: #e06d17;
+    display: block;
+}
+
+a.link:hover {
+    background: #13100a;
+}
+
+a.link b {
+    display: block;
+    font-weight: normal;
+}
+
+.large {
+    background: #0c0a06;
+    border: 1px solid #14110a;
+    border-top: 0;
+    color: #b79b6f;
+    text-align: left;
+    padding: 6px;
+}
+
+a.large {
+    color: #e06d17;
+    display: block;
+}
+
+.but,
+.input {
+    background: url(ui/but.png) repeat-x left #d93802;
+    border: 1px solid #942600;
+    color: #e6ce93;
+    font-weight: bold;
+    padding-left: 13px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+a.but {
+    color: #e6ce93;
+}
+
+.down {
+    background: #090704;
+    border: 1px solid #110e08;
+    border-top: 0;
+    color: #b79b6f;
+    text-align: left;
+    padding: 6px;
+}
+
+a.down {
+    color: #e06d17;
+    display: block;
+}
+
+a.down:hover {
+    background: #13100a;
+}
+
+.d {
+    text-align: center;
+    font-size: 11px;
+    color: #6e5f4a;
+}
+
+.d a {
+    color: #be7138;
+}
+
+.foot {
+    border-top: 2px solid #7b1f02;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #0c0a06;
+}
+
+.foot_help {
+    text-align: center;
+    background: #000;
+    color: #312722;
+    padding: 4px;
+    padding-bottom: 1px;
+    font-size: 12px;
+    border-top: 1px solid #0b0802;
+}
+
+.foot_help a {
+    color: #e06d17;
+    font-size: 12px;
+}
+
+small {
+    font-size: 11px;
 }
 
 .info_blue { color: #00b1f9; }
 .info_blue2 { color: #1cbade; }
 .info_red { color: #c22f2f; }
 .info_green { color: #368c39; }
-.info_gold { color: #cf9c19; }
-.info_yellow { color: #e6ce93; }
-.info_white { color: #ffffff; }
-.info_purple { color: #3e9d9d; }
-.info_pearl { color: #a2c5db; }
-.info_grey { color: #a18861; }
+.info_history { color: #ffe25d; }
 .info_salat { color: #92ba18; }
+.info_mail { color: #17ff00; }
+.info_grey { color: #a18861; }
+.info_pearl { color: #a2c5db; }
+.info_udar { color: #86ac5a; }
 .info_trader { color: #8a9d66; }
-.info_metka { color: #8d67b0; }
-.info_iron { color: #969595; }
-.info_grum { color: #7e6253; }
-.info_link { color: #e06d17; }
-.info_spider { color: #6cc129; }
-.info_violet { color: #a52c62; }
-.info_collect { color: #8a2bbb; }
+.info_cask { color: #98613f; }
+.info_purple { color: #3e9d9d; }
+.info_gun { color: #d03410; }
+.info_black { color: #4b4743; }
+.info_yellow { color: #e6ce93; }
+.info_kick { color: #99cc99; }
+.info_crystal { color: #da6032; }
+.info_gold { color: #cf9c19; }
+.info_black_pearl { color: #5f819c; }
 .info_mail2 { color: #e1b314; }
-.info_none { color: rgba(0, 0, 0, 0); }
+.info_white { color: #ffffff; }
+.info_metka { color: #8d67b0; }
+.info_violet { color: #a52c62; }
+.info_link { color: #e06d17; }
 
-.bg_crystal { background-color: #da6032; }
-.bg_gun { background-color: #d03410; }
-.bg_red { background-color: #c22f2f; }
-.bg_green { background-color: #368c39; }
-.bg_pearl { background-color: #a2c5db; }
-.bg_blue { background-color: #00b1f9; }
-.bg_blue2 { background-color: #1cbade; }
-.bg_black_pearl { background-color: #5f819c; }
-.bg_cask { background-color: #98613f; }
-.bg_salat { background-color: #92ba18; }
-.bg_udar { background-color: #86ac5a; }
-.bg_trader { background-color: #8a9d66; }
-.bg_kick { background-color: #99cc99; }
-.bg_spider { background-color: #6cc129; }
-.bg_mail { background-color: #17ff00; }
-.bg_purple { background-color: #3e9d9d; }
-.bg_gold { background-color: #cf9c19; }
-.bg_history { background-color: #ffe25d; }
-.bg_mail2 { background-color: #e1b314; }
-.bg_link { background-color: #e06d17; }
-.bg_yellow { background-color: #e6ce93; }
-.bg_white { background-color: #ffffff; }
-.bg_violet { background-color: #a52c62; }
-.bg_collect { background-color: #8a2bbb; }
-.bg_metka { background-color: #8d67b0; }
-.bg_iron { background-color: #969595; }
-.bg_grum { background-color: #7e6253; }
-.bg_grey { background-color: #a18861; }
-.bg_black { background-color: #4b4743; }
-
-.post a {
-   color: #f0cf87;
-}
-
-.post {
-   background: #171515;
-   color: #dabd92;
-   border: 1px solid #100c0c;
-   border-top: 0;
-   box-shadow: 0 0 10px rgba(0,0,0,0.4);
-   text-align: left;
-   padding: 6px;
-   word-break: break-word;
-}
-
-.under {
-   background: #171515;
-   box-shadow: 0 0 10px rgba(0,0,0,0.4);
-   color: #dabd92;
-   text-align: left;
-   padding-left: 3px;
-   padding-top: 5px;
-   padding-bottom: 5px;
-   border-bottom: 1px solid #141111;
-   word-break: break-word;
-}
-
-.under a {
-   color: #e06d17;
-}
-
-.but, .input {
-   background: url(ui/but_g.png) repeat-x left #043801;
-   border: 1px solid #032700;
-   color: #e6ce93;
-   font-weight: bold;
-   padding-left: 9px;
-   padding-right: 8px;
-   padding-top: 3px;
-   padding-bottom: 3px;
-   margin: 2px;
-   border-radius: 5px;
-}
-
-a.but {
-   color: #e6ce93;
-}
-
-.link {
-   background: url(ui/links.png) repeat-x left #171515;
-   border: 2px solid #141111;
-   border-top: 0;
-   color: #dabd92;
-   text-align: left;
-   padding: 7px;
-   box-shadow: 0 0 10px rgba(0,0,0,0.4);
-}
-
-a.link {
-   color: #e06d17;
-   display: block;
-}
-
-a.link b {
-   display: block;
-   font-weight: normal;
-}
-
-.d {
-   text-align: center;
-   font-size: 11px;
-   color: #6e5f4a;
-}
-
-.d a {
-   color: #be7138;
-}
-
-.war {
-   display: block;
-   background: #171515;
-}
-
-.foot {
-   margin: auto;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   text-align: center;
-   background: #171515;
-   border-top: 2px solid #0a3a5c;
-}
-
-.foot_help {
-   text-align: center;
-   background: #090909;
-   color: #312722;
-   padding: 4px;
-   padding-bottom: 1px;
-   font-size: 12px;
-   border-top: 1px solid #231d10;
-}
-
-.foot_help a {
-   color: #f3d5c0;
-   font-size: 12px;
-}
-
-.inline {
-   background: url(style/links.png) repeat-x left #171515;
-   border: 2px solid #141111;
-   border-top: 0;
-   color: #dabd92;
-   text-align: left;
-   padding: 7px;
-   box-shadow: 0 0 10px rgba(0,0,0,0.4);
-}
-
-a.inline {
-   color: #e06d17;
-   display: block;
-}
-
-small {
-   font-size: 11px;
-}
-
-/* XP/HP progress bars (top of game pages) */
-.pbar { background:#d1bebe; height:15px; display:block; position:relative; overflow:hidden; }
-.pbar div { height:15px; position:relative; }
-.pbar span { position:absolute; top:0; left:0; right:0; text-align:center; color:#fff; font-size:11px; line-height:15px; }
-.exp-f { background:#e06d17; }
-.hp-f { background:#bb1515; }
+.pbar { background: #d1bebe; height: 15px; display: block; position: relative; overflow: hidden; }
+.pbar div { height: 15px; position: relative; }
+.pbar span { position: absolute; top: 0; left: 0; right: 0; text-align: center; color: #fff; font-size: 11px; line-height: 15px; }
+.exp-f { background: #e06d17; }
+.hp-f { background: #bb1515; }
